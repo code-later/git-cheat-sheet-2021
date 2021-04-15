@@ -2,6 +2,31 @@
 
 My awesome git cheat sheet.
 
+```
+$ git init <project-name>
+$ cd <project-name>
+```
+
+## Config
+
+```
+$ git config --global user.name "Ada Lovelace"
+$ git config --global user.email ada.lovelace@example.com
+$ git config --global core.editor vim
+$ git config --global init.defaultBranch main
+```
+
+## Add first file (README)
+
+```
+$ git status
+$ vim README.md
+$ git add README.md
+$ git status
+$ git commit -m "Initial commit"
+$ git status
+```
+
 ## Create first branch
 
 ```

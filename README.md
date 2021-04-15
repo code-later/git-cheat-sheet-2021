@@ -39,3 +39,12 @@ $ git checkout main
 $ git merge add-create-new-repo-part
 $ git branch -d add-create-new-repo-part
 ```
+
+## Interact with git objects
+
+```
+$ git log
+$ cat .git/objects/XX/.....
+$ git cat-file SHA
+$ git cat-file -t SHA # Show type
+```
